@@ -6,54 +6,53 @@ public class J1 {
 		// TODO Auto-generated method stub
 		String str1="",str2="",str3="",str4="";
         Scanner scanner = new Scanner(System.in);
-        System.out.println("±K½X¿é¤J´ú¸Õ");
-        System.out.print("½Ğ¿é¤J±K½X:");
+        System.out.println("å¯†ç¢¼è¼¸å…¥æ¸¬è©¦");
+        System.out.print("è«‹è¼¸å…¥å¯†ç¢¼:");
         str1 = scanner.nextLine();
         try 
         {
         	int typenum=0;
-        	System.out.print("½Ğ¦A¦¸¿é¤J¤@¦¸±K½X:");
+        	System.out.print("è«‹å†æ¬¡è¼¸å…¥ä¸€æ¬¡å¯†ç¢¼:");
         	str2 = scanner.nextLine();
         	if(str2.equals(str1))
         	{
-        		System.out.print("±K½X¥¿½T,½Ğ¦A¦¸¿é¤J¤@¦¸±K½X:");
+        		System.out.print("å¯†ç¢¼æ­£ç¢º,è«‹å†æ¬¡è¼¸å…¥ä¸€æ¬¡å¯†ç¢¼:");
         		str3 = scanner.nextLine();
         		if(str3.equals(str1))
         		{
-        			System.out.println("±K½X¥¿½T");
+        			System.out.println("å¯†ç¢¼æ­£ç¢º");
         		}
         	}
         	else 
         	{
-        		System.out.println("»P²Ä¤@¦¸¿é¤Jªº¤£¦P");
+        		System.out.println("èˆ‡ç¬¬ä¸€æ¬¡è¼¸å…¥çš„ä¸åŒ");
         		typenum++;
         	}
         	if(typenum==1)
         	{
-        		System.out.print("½Ğ¦A¦¸¿é¤J¤@¦¸±K½X:");
+        		System.out.print("è«‹å†æ¬¡è¼¸å…¥ä¸€æ¬¡å¯†ç¢¼:");
             	str3 = scanner.nextLine();
             	if(str3.equals(str1))
             	{
-            		System.out.print("½Ğ¦A¦¸¿é¤J¤@¦¸±K½X:");
-            		str4 = scanner.nextLine();
+            		System.out.println("å¯†ç¢¼æ­£ç¢º");
             	}
             	else
             	{
-            		System.out.println("»P²Ä¤@¦¸¿é¤Jªº¤£¦P");
+            		System.out.println("èˆ‡ç¬¬ä¸€æ¬¡è¼¸å…¥çš„ä¸åŒ");
             		typenum++;
             	} 		
         	}
         	if(typenum==2)
         	{
-        		System.out.print("½Ğ¦A¦¸¿é¤J¤@¦¸±K½X:");
+        		System.out.print("è«‹å†æ¬¡è¼¸å…¥ä¸€æ¬¡å¯†ç¢¼:");
             	str4 = scanner.nextLine();
             	if(str4.equals(str1))
             	{
-            		System.out.println("±K½X¥¿½T");
+            		System.out.println("å¯†ç¢¼æ­£ç¢º");
             	}
             	else
             	{
-            		System.out.println("»P²Ä¤@¦¸¿é¤Jªº¤£¦P");
+            		System.out.println("èˆ‡ç¬¬ä¸€æ¬¡è¼¸å…¥çš„ä¸åŒ");
             		typenum++;
             	}
             		
@@ -65,7 +64,7 @@ public class J1 {
         }
         catch(RuntimeException e) 
         {
-        	System.out.println("¿é¤J¤T¦¸¿ù»~!µ{¦¡°±¤î");
+        	System.out.println("è¼¸å…¥ä¸‰æ¬¡éŒ¯èª¤!ç¨‹å¼åœæ­¢");
         }
 	}
 
